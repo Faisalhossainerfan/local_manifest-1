@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="Faisalhossainerfan"
+          fetch="https://github.com/Faisalhossainerfan" />
+          
+  <remote name="Jabiyeff-Project"
+          fetch="https://github.com/Jabiyeff-Project" />
+  
+  <!-- Trees -->
+        <project path="device/xiaomi/santoni" name="device-santoni" remote="Faisalhossainerfan" revision="11.0" />
+        <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff-Project" revision="11.0" />
+        <project path="kernel/xiaomi/santoni" name="kernel-santoni" remote="Jabiyeff-Project" revision="11.0" />
+
+</manifest>
