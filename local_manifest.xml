@@ -4,12 +4,12 @@
   <remote name="Faisalhossainerfan"
           fetch="https://github.com/Faisalhossainerfan" />
           
-  <remote name="Jabiyeff-Project"
-          fetch="https://github.com/Jabiyeff-Project" />
+  <remote name="Jabiyeff"
+          fetch="https://github.com/Jabiyeff" />
   
   <!-- Trees -->
-        <project path="device/xiaomi/santoni" name="device-santoni" remote="Faisalhossainerfan" revision="11.0" />
-        <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff-Project" revision="11.0" />
-        <project path="kernel/xiaomi/santoni" name="kernel-santoni" remote="Jabiyeff-Project" revision="11.0" />
+        <project path="device/xiaomi/santoni" name="device-santoni-1" remote="Faisalhossainerfan" revision="arrow-12" />
+        <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff" revision="12.0" />
+        <project path="kernel/xiaomi/santoni" name="msm-4.9-santoni-kud" remote="Jabiyeff" revision="12.0" />
 
 </manifest>
