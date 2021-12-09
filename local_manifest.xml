@@ -7,9 +7,20 @@
   <remote name="Jabiyeff"
           fetch="https://github.com/Jabiyeff" />
   
+  <remote name="cherish
+          fetch="https://github.com/CherishOS" />
+
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="device-santoni-1" remote="Faisalhossainerfan" revision="arrow-12" />
         <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff" revision="12.0" />
         <project path="kernel/xiaomi/msm8937" name="msm-4.9-santoni-kud" remote="Jabiyeff" revision="12.0" />
+
+  <!-- SEPOlicy -->
+        <remove-project name="device_qcom_sepolicy" />
+        <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cherish" revision="twelve" />
+        <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="cherish" revision="twelve-legacy" />
+        <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="cherish" revision="twelve-legacy-um" />
+        <remove-project name="device_qcom_sepolicy_vndr" />
+        <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="cherish" revision="twelve" />
 
 </manifest>
