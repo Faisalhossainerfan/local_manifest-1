@@ -11,12 +11,17 @@
           fetch="https://github.com/Jabiyeff-Project" />
 
   <!-- Trees -->
-        <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="Faisalhossainerfan" revision="ppui" />
+        <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="Faisalhossainerfan" revision="spark" />
         <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff" revision="12.0" />
         <project path="kernel/xiaomi/msm8937" name="msm-4.9-santoni-kud" remote="Jabiyeff" revision="12.0" />
 
   <!-- Extra -->
-        <remove-project name="hardware_qcom-caf_wlan" />
+        <remove-project name="android_hardware_qcom_wlan" />
         <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="jabiyeff-project" revision="12.0" />
+
+  <!-- Hals -->
+        <remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_media" />
 
 </manifest>
