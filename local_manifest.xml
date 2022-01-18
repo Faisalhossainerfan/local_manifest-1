@@ -13,6 +13,8 @@
   <remote name="I"
           fetch="https://github.com/RasyidAlKautsar" />
 
+  <remote  name="linos"
+          fetch="https://github.com/LineageOS" />
 
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="Faisalhossainerfan" revision="spark" />
@@ -30,5 +32,9 @@
 
   <!-- Sepolicy -->
         <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="I" revision="12" />
+
+  <!-- devicesettings -->
+        <remove-project name="android_packages_resources_devicesettings" />
+        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="linos" revision="lineage-18.1" />
 
 </manifest>
