@@ -10,8 +10,8 @@
   <remote name="jabiyeff-project"
           fetch="https://github.com/Jabiyeff-Project" />
 
-  <remote  name="pixel"
-          fetch="https://github.com/PixelExperience" />
+  <remote  name="linos"
+          fetch="https://github.com/LineageOS" />
 
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="Faisalhossainerfan" revision="awaken" />
@@ -24,6 +24,6 @@
 
   <!-- devicesettings -->
         <remove-project name="LineageOS/android_packages_resources_devicesettings" />
-        <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixel" revision="twelve" />
+        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="linos" revision="lineage-18.1" />
 
 </manifest>
